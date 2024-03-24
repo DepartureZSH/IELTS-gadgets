@@ -59,7 +59,6 @@ class Demo(QWidget):
                     os.remove("{}\\{}".format(self.temp_path, outfile))
             except Exception as e:
                 print(str(e))
-        print("文件删除完毕")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
