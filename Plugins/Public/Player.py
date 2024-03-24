@@ -275,7 +275,6 @@ class player(QWidget):
                 self.start_timer.stop()
             except:
                 pass
-            print("update_index ", v)
             self.Index = v
 
     def KeepMoving(self):
@@ -299,23 +298,18 @@ class player(QWidget):
             self.progress_slider.setRange(0, self.breaks*1000)
         self.breaks_time -= 1000
         value = self.breaks*1000 - self.breaks_time
-        # print(value, "/", self.progress_slider.maximum())
         self.progress_slider.setValue(value)
         self.get_time_func(self.breaks_time)
 
     def style(self):
         qssStyle = '''
             *{
+                font-family: Times New Roman;
+                font-size: 20px;
                 border: none;
                 background-color:rgb(225,225,225);
             }
-            QWidget[name='menu'] {
-                border:none; 
-                border-radius:10px; 
-                background-color:rgb(225,225,225);
-            }
             QPushButton {
-              display: inline-block;
               padding: 10px 10px;
               border-radius: 8px;
               background-color:rgb(255,255,255);
@@ -324,8 +318,6 @@ class player(QWidget):
               text-align: center;
               text-decoration: none;
               text-transform: uppercase;
-              box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-              transition: background-color 0.3s ease;
             }
             QPushButton:hover {
                 background-color: rgb(235,235,235);
@@ -343,13 +335,11 @@ class player(QWidget):
 
     def clear_Temp(self):
         for outfile in self.media_list:
-            print(outfile)
             try:
                 if os.path.exists("{}".format(outfile)):
                     os.remove("{}".format(outfile))
             except Exception as e:
                 print(str(e))
-        print("文件删除完毕")
 
     def closeEvent(self, a0: QCloseEvent) -> None:
         super().closeEvent(a0)
