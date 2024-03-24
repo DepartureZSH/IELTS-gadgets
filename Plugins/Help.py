@@ -71,7 +71,6 @@ Tips：volume值在0.0-1.0，rate：200代表2倍速，合成器数量与配置�
                 background-color:rgb(225,225,225);
             }
             QPushButton {
-              display: inline-block;
               padding: 10px 10px;
               border-radius: 8px;
               background-color:rgb(255,255,255);
@@ -80,8 +79,6 @@ Tips：volume值在0.0-1.0，rate：200代表2倍速，合成器数量与配置�
               text-align: center;
               text-decoration: none;
               text-transform: uppercase;
-              box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-              transition: background-color 0.3s ease;
             }
             QPushButton:hover {
                 background-color: rgb(235,235,235);
@@ -96,37 +93,3 @@ Tips：volume值在0.0-1.0，rate：200代表2倍速，合成器数量与配置�
         size = widget.geometry()
         widget.move((screen.width() - size.width()) / 2,
                     (screen.height() - size.height()) / 2)
-
-# if __name__ == "__main__":
-#     app = QApplication(sys.argv)
-#     demo = Demo()
-#     qssStyle = '''
-#         *{
-#             border: none;
-#             background-color:rgb(225,225,225);
-#         }
-#         QWidget[name='menu'] {
-#             border:none;
-#             border-radius:10px;
-#             background-color:rgb(225,225,225);
-#         }
-#         QPushButton {
-#           display: inline-block;
-#           padding: 10px 10px;
-#           border-radius: 8px;
-#           background-color:rgb(255,255,255);
-#           font-size: 16px;
-#           font-weight: bold;
-#           text-align: center;
-#           text-decoration: none;
-#           text-transform: uppercase;
-#           box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-#           transition: background-color 0.3s ease;
-#         }
-#         QPushButton:hover {
-#             background-color: rgb(235,235,235);
-#         }
-#     '''
-#     demo.setStyleSheet(qssStyle)
-#     demo.show()
-#     sys.exit(app.exec_())
