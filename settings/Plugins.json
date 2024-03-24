@@ -34,11 +34,11 @@
     "Button_name": "OralTestButton",
     "Button_text": "自定义口语测试"
   },
-  "Help": {
-    "Name": "helpBook",
+  "Listening": {
+    "Name": "Listening",
     "Module": "Demo",
     "Action": "clicked",
-    "Button_name": "HelpButton",
-    "Button_text": "帮助"
+    "Button_name": "ListeningButton",
+    "Button_text": "雅思王听力"
   }
 }
