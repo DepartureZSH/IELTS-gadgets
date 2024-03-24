@@ -9,23 +9,23 @@
 
 ### step1 解压
 
-![image-20240324162113261](E:\Desktop\Test\文档\image-20240324162113261.png)
+![image-20240324162113261](images//image-20240324162113261.png)
 
 ### step2 双击init.bat
 
-![image-20240324162238217](E:\Desktop\Test\文档\image-20240324162238217.png)
+![image-20240324162238217](images//image-20240324162238217.png)
 
 出现以上类似字符，表示虚拟环境初始化已完成，本命令行会自动关闭。
 
 ### step3 双击init_requirements.bat
 
-![image-20240324162626638](E:\Desktop\Test\文档\image-20240324162626638.png)
+![image-20240324162626638](images//image-20240324162626638.png)
 
 出现以上类似字符，表示虚拟环境python函数包已配置完毕，本命令行会自动关闭。
 
 ### step4 双击start.bat打开程序
 
-![image-20240324162846581](E:\Desktop\Test\文档\image-20240324162846581.png)
+![image-20240324162846581](images//image-20240324162846581.png)
 
 
 
@@ -148,7 +148,7 @@ Value：
 
 #### IELTS PART1&自定义口语测试
 
-![image-20240324170253615](E:\Desktop\Test\文档\image-20240324170253615.png)
+![image-20240324170253615](images//image-20240324170253615.png)
 
 以IELTS PART1为例，一行代表一个问题
 
@@ -158,10 +158,10 @@ IELTS PART2和IELTS PART3的题库文件一一对应，如：
 
 IELTS\Plugins\Public\corpus\IELTS2\Test1.txt
 
-![image-20240324170650817](E:\Desktop\Test\文档\image-20240324170650817.png)
+![image-20240324170650817](images//image-20240324170650817.png)
 
 对应 IELTS\Plugins\Public\corpus\IELTS3\Test1.txt
 
-![image-20240324170721718](E:\Desktop\Test\文档\image-20240324170721718.png)
+![image-20240324170721718](images//image-20240324170721718.png)
 
 在更换题库时，需要尤其注意。
