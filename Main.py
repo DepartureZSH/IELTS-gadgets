@@ -107,7 +107,6 @@ class CameraPageWindow(QWidget):
 
     # 打开关闭摄像头控制
     def slotCameraButton(self):
-        print("sc")
         if not self.timer_camera.isActive():
             # 打开摄像头并显示图像信息
             self.openCamera()
@@ -117,7 +116,6 @@ class CameraPageWindow(QWidget):
 
     # 打开摄像头
     def openCamera(self):
-        print("op")
         flag = self.cap.open(self.CAM_NUM)
         if not flag:
             msg = QMessageBox.Warning(self, u'Warning', u'请检测相机与电脑是否连接正确',
@@ -133,6 +131,7 @@ class CameraPageWindow(QWidget):
         self.cap.release()
         self.cameraLabel1.clear()
         self.cameraButton.setText('打开摄像头')
+        self.cameraLabel1.setPixmap(QPixmap(self.dir_path + "\images\Examer.jpg"))
 
     ####################################################################################
 
@@ -172,7 +171,6 @@ if __name__ == "__main__":
             background-color:rgb(225,225,225);
         }
         QPushButton {
-          display: inline-block;
           padding: 10px 10px;
           border-radius: 8px;
           background-color:rgb(255,255,255);
@@ -181,8 +179,6 @@ if __name__ == "__main__":
           text-align: center;
           text-decoration: none;
           text-transform: uppercase;
-          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-          transition: background-color 0.3s ease;
         }
         QPushButton:hover {
             background-color: rgb(235,235,235);
