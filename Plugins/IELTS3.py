@@ -63,7 +63,6 @@ class Demo(QWidget):
                     os.remove("{}\\{}".format(self.temp_path, outfile))
             except Exception as e:
                 print(str(e))
-        print("文件删除完毕")
 
     def closeEvent(self, a0: QCloseEvent) -> None:
         super().closeEvent(a0)
