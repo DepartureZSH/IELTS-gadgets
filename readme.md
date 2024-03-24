@@ -25,7 +25,7 @@
 
 ### step4 双击start.bat打开程序
 
-![image-20240324162846581](images//image-20240324162846581.png)
+![image-20240324162846581](images//image-20240324162846582.png)
 
 
 
