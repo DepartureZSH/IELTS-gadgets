@@ -60,13 +60,6 @@ class Demo(QWidget):
 
     def clear_Temp(self):
         self.Cleaner.start()
-        # for outfile in os.listdir(self.temp_path):
-        #     try:
-        #         if os.path.exists("{}\\{}".format(self.temp_path, outfile)):
-        #             os.remove("{}\\{}".format(self.temp_path, outfile))
-        #     except Exception as e:
-        #         print(str(e))
-        # print("文件删除完毕")
 
     def exit(self):
         self.close_Signal.emit(True)
