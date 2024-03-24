@@ -53,7 +53,6 @@ class Demo(QWidget):
 
 
     def showIELTS2(self):
-        print("showIELTS2  self.Part:", self.Part)
         self.IELTS1.close_Signal.disconnect(self.showIELTS2)
         self.clear_Temp()
         self.IELTS2_3 = os.listdir(self.dir_path + f"\\Public\\corpus\\IELTS2\\")
@@ -71,7 +70,6 @@ class Demo(QWidget):
                 """.format(self.raw_msgs[0]), "Time is up. Can you start speaking now, please?", "Now you have one minute left."]
         self.trans.set_Property(msgs)
         self.trans.start()
-        print("showIELTS2 down self.Part:", self.Part)
 
     def showIELTS3(self):
         self.player.close_Signal.disconnect(self.showIELTS3)
@@ -88,7 +86,6 @@ class Demo(QWidget):
         self.trans.start()
 
     def set_duration(self, duration):
-        print("set_duration self.Part:", self.Part)
         self.duration = duration
         wav_list = [self.dir_path + "\\Public\\Temps\\" + file for file in os.listdir(self.temp_path)]
         if self.Part == 1:
@@ -129,7 +126,6 @@ class Demo(QWidget):
                 background-color:rgb(225,225,225);
             }
             QPushButton {
-              display: inline-block;
               padding: 10px 10px;
               border-radius: 8px;
               background-color:rgb(255,255,255);
@@ -138,8 +134,6 @@ class Demo(QWidget):
               text-align: center;
               text-decoration: none;
               text-transform: uppercase;
-              box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-              transition: background-color 0.3s ease;
             }
             QPushButton:hover {
                 background-color: rgb(235,235,235);
