@@ -146,7 +146,7 @@ Value：
 
 #### IELTS PART1&自定义口语测试
 
-![image-20240324170253615](E:\Desktop\Test\文档\image-20240324170253615.png)
+![image-20240324170253615](images//image-20240324170253615.png)
 
 以IELTS PART1为例，一行代表一个问题
 
@@ -156,11 +156,11 @@ IELTS PART2和IELTS PART3的题库文件一一对应，如：
 
 IELTS\Plugins\Public\corpus\IELTS2\Test1.txt
 
-![image-20240324170650817](E:\Desktop\Test\文档\image-20240324170650817.png)
+![image-20240324170650817](images//image-20240324170650817.png)
 
 对应 IELTS\Plugins\Public\corpus\IELTS3\Test1.txt
 
-![image-20240324170721718](E:\Desktop\Test\文档\image-20240324170721718.png)
+![image-20240324170721718](images//image-20240324170721718.png)
 
 在更换题库时，需要尤其注意。
 
