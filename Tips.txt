@@ -1,0 +1,25 @@
+以下是可能会遇到的相关问题
+
+Q1 Failed to build PyQt5-sip（pip安装pyqt5-sip报错）
+ERROR: Could not build wheels for PyQt5-sip, which is required to install pyproject.toml-based projects
+可能的原因：无C++环境
+Tips：fix步骤
+参考：https://blog.csdn.net/qq_44319167/article/details/130439875
+step1 运行本文件夹内的 【vs_BuildTools.exe】
+如果没有上述文件，请安装Microsoft C++ 生成工具 - Visual Studio：【https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/】
+step2 按下 【Win+R】，输入【winver】查看系统版本（如：操作系统内部版本【1904x.xxxx】）
+step3 在打开的【正在安装 - Visual Studio生成工具2022】中选择 【使用C++的桌面开发】
+step4 在右侧【安装详细信息】中勾选Windows 10 SDK与你的操作系统内部版本最接近的一项（如：【Windows 10 SDK（xx.x.1904x.0）】）
+step5 点击并等待【安装】
+step6 重新启动本项目配置文件
+
+Q2 pip不是内部或外部命令，也不是可运行的程序或批处理文件
+Tips：重新启动本项目配置文件
+
+Q3 播放器放不出音频
+可能的原因：无音频解码器
+Tips：fix步骤
+step1 安装Backup文件夹中的K-Lite解码器，一直next即可
+step2 重新启动
+
+

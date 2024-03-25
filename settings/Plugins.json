@@ -1,0 +1,44 @@
+{
+  "IELTS": {
+    "Name": "IELTS",
+    "Module": "Demo",
+    "Action": "clicked",
+    "Button_name": "IELTSButton",
+    "Button_text": "IELTS模拟测试"
+  },
+  "IELTS1": {
+    "Name": "IELTS1",
+    "Module": "Demo",
+    "Action": "clicked",
+    "Button_name": "IELTS1Button",
+    "Button_text": "IELTS Part1"
+  },
+  "IELTS2": {
+    "Name": "IELTS2",
+    "Module": "Demo",
+    "Action": "clicked",
+    "Button_name": "IELTS2Button",
+    "Button_text": "IELTS Part2"
+  },
+  "IELTS3": {
+    "Name": "IELTS3",
+    "Module": "Demo",
+    "Action": "clicked",
+    "Button_name": "IELTS3Button",
+    "Button_text": "IELTS Part3"
+  },
+  "QuickTest": {
+    "Name": "OralTest",
+    "Module": "Demo",
+    "Action": "clicked",
+    "Button_name": "OralTestButton",
+    "Button_text": "自定义口语测试"
+  },
+  "Listening": {
+    "Name": "Listening",
+    "Module": "Demo",
+    "Action": "clicked",
+    "Button_name": "ListeningButton",
+    "Button_text": "雅思王听力"
+  }
+}
